@@ -6,6 +6,10 @@
     font-family:'Playfair_Display_SC';
     src: url("fonts/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf");
 }
+@font-face {
+    font-family:'Roboto';
+    src: url("fonts/Roboto/Roboto-Light.ttf");
+}
 html,body{
     margin: 0;
     background-color:#242B33;;
@@ -120,16 +124,25 @@ span.img{
     justify-content: center;
 }
 .testimonials_item{
-    width: 190px;
+    width: 200px;
     height: 180px;
     color: #ffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+    margin-right: 70px;
 }
 
-.testimoniala_item img{
+.testimonials_item img{
     width: 80px;
     height: 80px;
+    margin-bottom: 53px;
 }
 
-.appartments{
-    height: 806px;
+.testimonials_item span{
+    display: inline-flex;
+
 }
+
+/* конец testimonials*/
+
