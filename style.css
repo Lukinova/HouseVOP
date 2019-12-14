@@ -25,6 +25,11 @@ header{
     margin-bottom: 120px;
 
 }
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    text-align: left;
+}
 .first_screen_menu ul {
     width: 541px;
     height: 16px;
@@ -121,7 +126,8 @@ span.img{
     height:180px;
     color: #242B33;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
 }
 .testimonials_item{
     width: 200px;
@@ -130,7 +136,7 @@ span.img{
     font-family: 'Roboto';
     font-size: 20px;
     text-align: center;
-    margin-right: 70px;
+    /*margin-right: 70px;*/
 }
 
 .testimonials_item img{
@@ -145,4 +151,56 @@ span.img{
 }
 
 /* конец testimonials*/
+.appartments_Headline span{
+    height: 36px;
+}
+h5{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    height: 36px;
+    margin-bottom: 70px;
+    margin-top: 0;
+}
 
+.appartments{
+    height: 806px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.appartments img {
+    width: 535px;
+    height: 320px;
+}
+
+.appartments_item {
+    width: 535px;
+    height: 320px;
+    margin: 30px;
+    display:flex;
+    align-items: end;
+    position: relative;
+}
+
+.appartments_item:nth-child(2n) {
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(img/Loft2.png);
+}
+
+.appartments_item:nth-child(2n+1) {
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(img/Loft3.png);
+}
+
+ span.appartments_signature {
+     font-family: Raleway;
+     font-size: 24px;
+     color: #ffffff;
+     z-index: 20;
+     position: absolute;
+     left: 50px;
+     bottom: 50px;
+}
