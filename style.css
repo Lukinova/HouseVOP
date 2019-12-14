@@ -128,6 +128,7 @@ span.img{
     display: flex;
     justify-content: space-between;
     margin-bottom: 120px;
+    padding: 0 130px;
 }
 .testimonials_item{
     width: 200px;
@@ -204,3 +205,72 @@ h5{
      left: 50px;
      bottom: 50px;
 }
+
+ /* end appartments*/
+ .cta{
+     display: grid;
+     grid-template-columns: auto 255px 255px;
+     grid-column-gap: 30px;
+     grid-row-gap: 30px;
+     height:586px;
+ }
+ .cta input {
+     margin-bottom: 30px;
+     width: 240px!important;
+     padding-left: 10px;
+ }
+
+.wrapper.fullwidth {
+    width: 100%;
+}
+.wrapper.fullwidth.wannasee {
+    background:linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url(img/Form.png);
+    background-position-x: center!important;
+    background-repeat: no-repeat!important;
+    height: 560px;
+    padding-top: 120px;
+    max-height: 560px;
+    overflow:hidden;
+}
+
+ .cta_heading p {
+     width:500px;
+     font-family: Raleway;
+     font-size: 16px;
+     color: #ffff;
+     line-height: 24px;
+ }
+ input{
+     font-family: Raleway;
+     font-size:14px;
+     line-height: 27px;
+     background: #FFFFFF;
+     opacity: 0.2;
+     width: 255px;
+     height: 50px;
+
+ }
+ button{
+     width: 255px;
+     height: 50px;
+     background: #D4C17F;
+     color: #fffff;
+ }
+ span.form{
+     width: 255px;
+     height: 28px;
+     font-family: Raleway;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 13px;
+     line-height: 16px;
+     text-align: center;
+     color: #E7E7E7;
+ }
+
+ .cta_form{
+     width: 500px;
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-template-rows: 0 auto;
+ }
