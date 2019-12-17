@@ -105,6 +105,14 @@ span.placeholder img{
     margin: 0;
     margin-right: 15px;
 }
+span.phone_call{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
 span.phone_call img{
     width: 21px;
     height: 21px;
@@ -241,8 +249,11 @@ h5{
      line-height: 24px;
  }
  input{
+
      font-family: Raleway;
-     font-size:14px;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
      line-height: 27px;
      width:255px;
      height: 50px;
@@ -252,9 +263,14 @@ h5{
      color: #ffffff;
  }
  input::placeholder {
-     color: #ffffff;
+     color: #BEBEBE;;
  }
  button{
+     font-family: Raleway;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 16px;
+     line-height: 27px;
      width:255px;
      height: 50px;
      background: #D4C17F;
@@ -298,7 +314,31 @@ form{
     grid-column-gap: 30px;
 }
 .form_end{
-  
     width:1115px;
     height:136px;
+    padding-bottom: 180px;
+}
+
+
+.footer{
+    height: 100%;
+    background-color:#2D343C;
+    display: grid;
+    grid-template-columns: 200px 245px 230px 300px;
+    grid-column-gap: 50px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.footer_logo{
+    width: 300px;
+}
+li{
+    margin-bottom: 15px;
+}
+
+.background{
+    background-color: #2D343C;
+}
+ ul img{
+    margin-right:20px;
 }
