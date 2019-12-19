@@ -1,0 +1,339 @@
+@media screen and (max-width:600px) {
+    body{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    header{
+        display:block;
+        background-image:linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url("img/Rectangle (1).png");
+        background-repeat:no-repeat;
+        background-position-x: center;
+        background-size: 100%;
+        height: 720px;
+        width:100%;
+        top: 0;
+        margin-bottom: 120px;
+
+    }
+    .wrapper {
+        width: 1140px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .first_screen_menu ul {
+        width: 541px;
+        height: 16px;
+        display: inline-flex;
+        justify-content:space-between;
+        margin-top: 55px;
+    }
+    li{
+        list-style-type: none;
+        font-family:'Raleway';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        color:#ffff;
+
+    }
+    .first_screen_logo{
+        width: 810px;
+        height: 66px;
+        display: flex;
+        justify-content: space-around;
+        margin-top:30px;
+
+    }
+    .first_screen_logo img{
+        width:134px;
+        height: 66px;
+    }
+    .first_screen_menu{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+
+    }
+    h6{
+        font-family:'Playfair_Display_SC';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        color: #D4C17F;
+        z-index:555;
+        margin-bottom:0;
+
+    }
+    .first_screen_center img{
+        width: 40px;
+        height: 40px;
+        margin-top: 100px;
+        margin-bottom: 200px;
+    }
+    .first_screen_center{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        color:#ffff;
+    }
+    span.placeholder{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        margin-right: 100px;
+    }
+    span.placeholder img{
+        width: 21px;
+        height: 21px;
+        margin: 0;
+        margin-right: 15px;
+    }
+    span.phone_call{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+    }
+    span.phone_call img{
+        width: 21px;
+        height: 21px;
+        margin: 0;
+        margin-right: 15px;
+    }
+    span.img{
+        display: flex;
+        justify-content: center;
+    }
+    .contact{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* конец header*/
+
+    .testimonials{
+        height:180px;
+        color: #242B33;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 120px;
+        padding: 0 130px;
+    }
+    .testimonials_item{
+        width: 200px;
+        height: 180px;
+        color: #ffff;
+        font-family: 'Roboto';
+        font-size: 20px;
+        text-align: center;
+        /*margin-right: 70px;*/
+    }
+
+    .testimonials_item img{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 53px;
+    }
+
+    .testimonials_item span{
+        display: inline-flex;
+
+    }
+
+    /* конец testimonials*/
+    .appartments_Headline span{
+        height: 36px;
+    }
+    h5{
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+        color: #D4C17F;
+        height: 36px;
+        margin-bottom: 70px;
+        margin-top: 0;
+    }
+
+    .appartments{
+        height: 806px;
+        flex-wrap: wrap;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .appartments img {
+        width: 535px;
+        height: 320px;
+    }
+
+    .appartments_item {
+        width: 535px;
+        height: 320px;
+        margin: 30px;
+        display:flex;
+        align-items: end;
+        position: relative;
+    }
+
+    .appartments_item:nth-child(2n) {
+        background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(img/Loft2.png);
+    }
+
+    .appartments_item:nth-child(2n+1) {
+        background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(img/Loft3.png);
+    }
+
+    span.appartments_signature {
+        font-family: Raleway;
+        font-size: 24px;
+        color: #ffffff;
+        z-index: 20;
+        position: absolute;
+        left: 50px;
+        bottom: 50px;
+    }
+
+    /* end appartments*/
+    .cta{
+        display: grid;
+        grid-template-columns: auto 255px 255px;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        height:586px;
+    }
+    .cta input {
+        margin-bottom: 30px;
+
+
+    }
+
+    .wrapper.fullwidth {
+        width: 100%;
+    }
+    .wrapper.fullwidth.wannasee {
+        background:linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url(img/Form.png);
+        background-position-x: center!important;
+        background-repeat: no-repeat!important;
+        height: 450px;
+        padding-top: 120px;
+        max-height: 560px;
+        overflow:hidden;
+    }
+
+    .cta_heading p {
+        width:500px;
+        font-family: Raleway;
+        font-size: 16px;
+        color: #ffff;
+        line-height: 24px;
+    }
+    input{
+
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 27px;
+        width:255px;
+        height: 50px;
+        border: 0;
+        text-align: center;
+        background: rgba(115, 121, 127, .5);
+        color: #ffffff;
+    }
+    input::placeholder {
+        color: #BEBEBE;;
+    }
+    button{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 27px;
+        width:255px;
+        height: 50px;
+        background: #D4C17F;
+        border: 0;
+        text-align: center;
+        color: #ffffff;
+    }
+    span.form{
+        width: 255px;
+        height: 28px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        color: #E7E7E7;
+    }
+
+
+    /* CTA END*/
+
+    .video{
+        display: flex;
+        justify-content: center;
+        opacity:0.4;
+        margin-bottom: 180px;
+    }
+    .maps iframe    {
+        opacity: 0.4;
+        margin-bottom: 180px;
+    }
+    .maps h5{
+        margin-bottom: 100px;
+    }
+
+    form{
+        width:1115px;
+        display: grid;
+        grid-template-columns: 250px 250px 250px 250px;
+        grid-column-gap: 30px;
+    }
+    .form_end{
+        width:1115px;
+        height:136px;
+        padding-bottom: 180px;
+    }
+
+
+    .footer{
+        height: 100%;
+        background-color:#2D343C;
+        display: grid;
+        grid-template-columns: 200px 245px 230px 300px;
+        grid-column-gap: 50px;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .footer_logo{
+        width: 300px;
+    }
+    li{
+        margin-bottom: 15px;
+    }
+
+    .background{
+        background-color: #2D343C;
+    }
+    ul img{
+        margin-right:20px;
+    }
+
+
+
+}
