@@ -178,8 +178,6 @@ h5{
 
 .appartments{
     height: 806px;
-    flex-wrap: wrap;
-    justify-content: center;
     display: grid;
     grid-template-columns: auto auto;
 }
