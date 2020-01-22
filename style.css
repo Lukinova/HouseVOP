@@ -12,15 +12,14 @@
 }
 html,body{
     margin: 0;
-    background-color:#242B33;;
+    background-color:#242B33;
 }
 header{
     display:block;
     background-image:linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url("img/Rectangle (1).png");
     background-repeat:no-repeat;
     background-position-x: center;
-    background-size: 100%;
-    height: 720px;
+    height: 100%;
     width:100%;
     top: 0;
     margin-bottom: 120px;
@@ -236,7 +235,6 @@ h5{
     background-repeat: no-repeat!important;
     height: 450px;
     padding-top: 120px;
-    max-height: 560px;
     overflow:hidden;
 }
 

@@ -67,8 +67,9 @@
     }
 
     h5{
-        font-size: 30px !important;
+        font-size: 25px !important;
         text-align: center !important;
+        margin-bottom: 20px !important;
     }
 
                 /*Наши квартиры*/
@@ -87,7 +88,62 @@
         background-position-x: center !important;
      }
 
+             /*Хотите посмотреть*/
 
+    .wrapper.fullwidth.wannasee{
+        height: 100% !important;
+
+    }
+
+    .cta{
+        margin-bottom: 100px !important;
+    }
+
+    .cta , form{
+        display: block !important;
+        width: 100% !important;
+    }
+    .cta_heading {
+        margin: 0 46px 20px 46px;
+    }
+
+    .cta_heading p{
+        width: 100% !important;
+    }
+
+    span.form{
+        margin-bottom: 30px !important;
+    }
+
+    .cta_heading_item{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        align-items: center !important;
+    }
+    .cta_heading_item_{
+        display: flex !important;
+        flex-direction: column!important;
+        align-items: center !important;
+    }
+
+    iframe{
+        height:300px !important;
+        width:-moz-available;
+    }
+
+    .form_end{
+        width: auto !important;
+    }
+
+    form{
+        display: flex !important;
+        flex-direction: column!important;
+        align-items: center !important;
+    }
+
+    input{
+        margin-bottom: 30px !important;
+    }
 
 
 
