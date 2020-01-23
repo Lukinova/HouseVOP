@@ -136,7 +136,7 @@ span.img{
     display: flex;
     justify-content: space-between;
     margin-bottom: 120px;
-    padding: 0 130px;
+    
 }
 .testimonials_item{
     width: 200px;
@@ -221,10 +221,14 @@ h5{
      height:586px;
  }
  .cta input {
-     margin-bottom: 30px;
+    
 
 
  }
+
+.wrapper {
+    overflow-x: hidden;
+}
 
 .wrapper.fullwidth {
     width: 100%;
@@ -258,6 +262,7 @@ h5{
      text-align: center;
      background: rgba(115, 121, 127, .5);
      color: #ffffff;
+     margin: 10px;
  }
  input::placeholder {
      color: #BEBEBE;;
@@ -274,6 +279,7 @@ h5{
      border: 0;
      text-align: center;
      color: #ffffff;
+     margin: 10px;
  }
  span.form{
      width: 255px;
